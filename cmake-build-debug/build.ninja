@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/f33dir/projects/C++/untitled/cmake-build-debug/
+cmake_ninja_workdir = /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Lab
 
@@ -49,45 +49,51 @@ cmake_ninja_workdir = /home/f33dir/projects/C++/untitled/cmake-build-debug/
 
 build cmake_object_order_depends_target_Lab: phony || CMakeFiles/Lab.dir
 
-build CMakeFiles/Lab.dir/main.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/untitled/main.cpp || cmake_object_order_depends_target_Lab
+build CMakeFiles/Lab.dir/main.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/main.cpp || cmake_object_order_depends_target_Lab
   DEP_FILE = CMakeFiles/Lab.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -I/usr/include/SDL2
   OBJECT_DIR = CMakeFiles/Lab.dir
   OBJECT_FILE_DIR = CMakeFiles/Lab.dir
 
-build CMakeFiles/Lab.dir/ImGui/imgui.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/untitled/ImGui/imgui.cpp || cmake_object_order_depends_target_Lab
+build CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdl.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/ImGui/backends/imgui_impl_sdl.cpp || cmake_object_order_depends_target_Lab
+  DEP_FILE = CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdl.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/Lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab.dir/ImGui/backends
+
+build CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdlrenderer.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/ImGui/backends/imgui_impl_sdlrenderer.cpp || cmake_object_order_depends_target_Lab
+  DEP_FILE = CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdlrenderer.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/Lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab.dir/ImGui/backends
+
+build CMakeFiles/Lab.dir/ImGui/imgui.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/ImGui/imgui.cpp || cmake_object_order_depends_target_Lab
   DEP_FILE = CMakeFiles/Lab.dir/ImGui/imgui.cpp.o.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -I/usr/include/SDL2
   OBJECT_DIR = CMakeFiles/Lab.dir
   OBJECT_FILE_DIR = CMakeFiles/Lab.dir/ImGui
 
-build CMakeFiles/Lab.dir/ImGui/imgui_demo.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/untitled/ImGui/imgui_demo.cpp || cmake_object_order_depends_target_Lab
+build CMakeFiles/Lab.dir/ImGui/imgui_demo.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/ImGui/imgui_demo.cpp || cmake_object_order_depends_target_Lab
   DEP_FILE = CMakeFiles/Lab.dir/ImGui/imgui_demo.cpp.o.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -I/usr/include/SDL2
   OBJECT_DIR = CMakeFiles/Lab.dir
   OBJECT_FILE_DIR = CMakeFiles/Lab.dir/ImGui
 
-build CMakeFiles/Lab.dir/ImGui/imgui_draw.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/untitled/ImGui/imgui_draw.cpp || cmake_object_order_depends_target_Lab
+build CMakeFiles/Lab.dir/ImGui/imgui_draw.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/ImGui/imgui_draw.cpp || cmake_object_order_depends_target_Lab
   DEP_FILE = CMakeFiles/Lab.dir/ImGui/imgui_draw.cpp.o.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -I/usr/include/SDL2
   OBJECT_DIR = CMakeFiles/Lab.dir
   OBJECT_FILE_DIR = CMakeFiles/Lab.dir/ImGui
 
-build CMakeFiles/Lab.dir/ImGui/imgui_tables.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/untitled/ImGui/imgui_tables.cpp || cmake_object_order_depends_target_Lab
+build CMakeFiles/Lab.dir/ImGui/imgui_tables.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/ImGui/imgui_tables.cpp || cmake_object_order_depends_target_Lab
   DEP_FILE = CMakeFiles/Lab.dir/ImGui/imgui_tables.cpp.o.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -I/usr/include/SDL2
   OBJECT_DIR = CMakeFiles/Lab.dir
   OBJECT_FILE_DIR = CMakeFiles/Lab.dir/ImGui
 
-build CMakeFiles/Lab.dir/ImGui/imgui_widgets.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/untitled/ImGui/imgui_widgets.cpp || cmake_object_order_depends_target_Lab
+build CMakeFiles/Lab.dir/ImGui/imgui_widgets.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/ImGui/imgui_widgets.cpp || cmake_object_order_depends_target_Lab
   DEP_FILE = CMakeFiles/Lab.dir/ImGui/imgui_widgets.cpp.o.d
   FLAGS = -g -std=gnu++2a
-  INCLUDES = -I/usr/include/SDL2
   OBJECT_DIR = CMakeFiles/Lab.dir
   OBJECT_FILE_DIR = CMakeFiles/Lab.dir/ImGui
 
@@ -99,9 +105,8 @@ build CMakeFiles/Lab.dir/ImGui/imgui_widgets.cpp.o: CXX_COMPILER__Lab_Debug /hom
 #############################################
 # Link the executable Lab
 
-build Lab: CXX_EXECUTABLE_LINKER__Lab_Debug CMakeFiles/Lab.dir/main.cpp.o CMakeFiles/Lab.dir/ImGui/imgui.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_demo.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_draw.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_tables.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_widgets.cpp.o
+build Lab: CXX_EXECUTABLE_LINKER__Lab_Debug CMakeFiles/Lab.dir/main.cpp.o CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdl.cpp.o CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdlrenderer.cpp.o CMakeFiles/Lab.dir/ImGui/imgui.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_demo.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_draw.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_tables.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_widgets.cpp.o
   FLAGS = -g
-  LINK_LIBRARIES = -lSDL2
   OBJECT_DIR = CMakeFiles/Lab.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -113,7 +118,7 @@ build Lab: CXX_EXECUTABLE_LINKER__Lab_Debug CMakeFiles/Lab.dir/main.cpp.o CMakeF
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/f33dir/projects/C++/untitled/cmake-build-debug && /snap/cmake/1210/bin/cmake-gui -S/home/f33dir/projects/C++/untitled -B/home/f33dir/projects/C++/untitled/cmake-build-debug
+  COMMAND = cd /home/f33dir/projects/C++/GraphLab1/cmake-build-debug && /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/bin/ccmake -S/home/f33dir/projects/C++/GraphLab1 -B/home/f33dir/projects/C++/GraphLab1/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -125,7 +130,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/f33dir/projects/C++/untitled/cmake-build-debug && /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/f33dir/projects/C++/untitled -B/home/f33dir/projects/C++/untitled/cmake-build-debug
+  COMMAND = cd /home/f33dir/projects/C++/GraphLab1/cmake-build-debug && /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/f33dir/projects/C++/GraphLab1 -B/home/f33dir/projects/C++/GraphLab1/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -141,7 +146,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/f33dir/projects/C++/untitled/cmake-build-debug
+# Folder: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug
 
 build all: phony Lab
 
@@ -152,14 +157,14 @@ build all: phony Lab
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-C.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Compiler/GNU.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-C.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU-CXX.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux-GNU.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/Linux.cmake /home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

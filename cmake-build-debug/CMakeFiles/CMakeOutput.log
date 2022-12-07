@@ -417,3 +417,3162 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_48e46 && [1/2] Building C object CMakeFiles/cmTC_48e46.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_48e46
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X64 succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_f2da0 && [1/2] Building C object CMakeFiles/cmTC_f2da0.dir/src.c.o
+[2/2] Linking C executable cmTC_f2da0
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__amd64__) || defined(__amd64) || defined(__x86_64__) || defined(__x86_64) || defined(_M_X64) || defined(_M_AMD64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_WL_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_3ff66 && [1/2] Building C object CMakeFiles/cmTC_3ff66.dir/src.c.o
+[2/2] Linking C executable cmTC_3ff66
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_d43b4 && [1/2] Building C object CMakeFiles/cmTC_d43b4.dir/src.c.o
+[2/2] Linking C executable cmTC_d43b4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_65722 && [1/2] Building C object CMakeFiles/cmTC_65722.dir/src.c.o
+[2/2] Linking C executable cmTC_65722
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_d198d && [1/2] Building C object CMakeFiles/cmTC_d198d.dir/src.c.o
+[2/2] Linking C executable cmTC_d198d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_add88 && [1/2] Building C object CMakeFiles/cmTC_add88.dir/src.c.o
+[2/2] Linking C executable cmTC_add88
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z);
+        return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_dcbff && [1/2] Building C object CMakeFiles/cmTC_dcbff.dir/src.c.o
+[2/2] Linking C executable cmTC_dcbff
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_a2c87 && [1/2] Building C object CMakeFiles/cmTC_a2c87.dir/src.c.o
+[2/2] Linking C executable cmTC_a2c87
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_c7a72 && [1/2] Building C object CMakeFiles/cmTC_c7a72.dir/src.c.o
+[2/2] Linking C executable cmTC_c7a72
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_ca638 && [1/2] Building C object CMakeFiles/cmTC_ca638.dir/src.c.o
+[2/2] Linking C executable cmTC_ca638
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test CPU_SUPPORTS_3DNOW succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_6f216 && [1/2] Building C object CMakeFiles/cmTC_6f216.dir/src.c.o
+[2/2] Linking C executable cmTC_6f216
+
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+            return 0;
+          }
+Performing C SOURCE FILE Test CPU_SUPPORTS_SSE succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b9689 && [1/2] Building C object CMakeFiles/cmTC_b9689.dir/src.c.o
+[2/2] Linking C executable cmTC_b9689
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test CPU_SUPPORTS_SSE2 succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_dc72e && [1/2] Building C object CMakeFiles/cmTC_dc72e.dir/src.c.o
+[2/2] Linking C executable cmTC_dc72e
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test CPU_SUPPORTS_SSE3 succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_649b3 && [1/2] Building C object CMakeFiles/cmTC_649b3.dir/src.c.o
+[2/2] Linking C executable cmTC_649b3
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { return 0; }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_f6110 && [1/2] Building C object CMakeFiles/cmTC_f6110.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f6110
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_10e92 && [1/2] Building C object CMakeFiles/cmTC_10e92.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_10e92
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8b054 && [1/2] Building C object CMakeFiles/cmTC_8b054.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8b054
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8ed3a && [1/2] Building C object CMakeFiles/cmTC_8ed3a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8ed3a
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_d2562 && [1/2] Building C object CMakeFiles/cmTC_d2562.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d2562
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_08487 && [1/2] Building C object CMakeFiles/cmTC_08487.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_08487
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_578d7 && [1/2] Building C object CMakeFiles/cmTC_578d7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_578d7
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_861a9 && [1/2] Building C object CMakeFiles/cmTC_861a9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_861a9
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_e37b3 && [1/2] Building C object CMakeFiles/cmTC_e37b3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e37b3
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_5d578 && [1/2] Building C object CMakeFiles/cmTC_5d578.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5d578
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8d7cd && [1/2] Building C object CMakeFiles/cmTC_8d7cd.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8d7cd
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_2d56d && [1/2] Building C object CMakeFiles/cmTC_2d56d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2d56d
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_9383a && [1/2] Building C object CMakeFiles/cmTC_9383a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9383a
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_f0fc1 && [1/2] Building C object CMakeFiles/cmTC_f0fc1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f0fc1
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_f80df && [1/2] Building C object CMakeFiles/cmTC_f80df.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f80df
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_3fe8d && [1/2] Building C object CMakeFiles/cmTC_3fe8d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3fe8d
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_63f00 && [1/2] Building C object CMakeFiles/cmTC_63f00.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_63f00
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_60b83 && [1/2] Building C object CMakeFiles/cmTC_60b83.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_60b83
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_49209 && [1/2] Building C object CMakeFiles/cmTC_49209.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_49209
+
+
+
+Determining if the include file linux/input.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8276f && [1/2] Building C object CMakeFiles/cmTC_8276f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8276f
+
+
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_86dd7 && [1/2] Building C object CMakeFiles/cmTC_86dd7.dir/src.c.o
+[2/2] Linking C executable cmTC_86dd7
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main(void) { return 0; }
+Determining if the strtod exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_000da && [1/2] Building C object CMakeFiles/cmTC_000da.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_000da
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod
+  return ((int*)(&strtod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_9642c && [1/2] Building C object CMakeFiles/cmTC_9642c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9642c
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc
+  return ((int*)(&malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the calloc exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_78ce7 && [1/2] Building C object CMakeFiles/cmTC_78ce7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_78ce7
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef calloc
+  return ((int*)(&calloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realloc exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_dd5a1 && [1/2] Building C object CMakeFiles/cmTC_dd5a1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dd5a1
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the free exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_c95b2 && [1/2] Building C object CMakeFiles/cmTC_c95b2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c95b2
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef free
+  return ((int*)(&free))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getenv exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_10631 && [1/2] Building C object CMakeFiles/cmTC_10631.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_10631
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_62fc6 && [1/2] Building C object CMakeFiles/cmTC_62fc6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_62fc6
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the putenv exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_12f9f && [1/2] Building C object CMakeFiles/cmTC_12f9f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_12f9f
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8ab37 && [1/2] Building C object CMakeFiles/cmTC_8ab37.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8ab37
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bsearch exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_1686e && [1/2] Building C object CMakeFiles/cmTC_1686e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1686e
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bsearch
+  return ((int*)(&bsearch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the qsort exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_22a50 && [1/2] Building C object CMakeFiles/cmTC_22a50.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_22a50
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef qsort
+  return ((int*)(&qsort))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the abs exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b1dbf && [1/2] Building C object CMakeFiles/cmTC_b1dbf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b1dbf
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef abs
+  return ((int*)(&abs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bcopy exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_58d0f && [1/2] Building C object CMakeFiles/cmTC_58d0f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_58d0f
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memset exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_3c3e3 && [1/2] Building C object CMakeFiles/cmTC_3c3e3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3c3e3
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_e9b05 && [1/2] Building C object CMakeFiles/cmTC_e9b05.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e9b05
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memmove exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_a7d8b && [1/2] Building C object CMakeFiles/cmTC_a7d8b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a7d8b
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_2bd89 && [1/2] Building C object CMakeFiles/cmTC_2bd89.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2bd89
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcmp
+  return ((int*)(&memcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlen exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_7db44 && [1/2] Building C object CMakeFiles/cmTC_7db44.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7db44
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlen
+  return ((int*)(&strlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the index exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_2f5c8 && [1/2] Building C object CMakeFiles/cmTC_2f5c8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2f5c8
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rindex exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_303c9 && [1/2] Building C object CMakeFiles/cmTC_303c9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_303c9
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strchr exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_35bba && [1/2] Building C object CMakeFiles/cmTC_35bba.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_35bba
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strrchr exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_cfcc9 && [1/2] Building C object CMakeFiles/cmTC_cfcc9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cfcc9
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strrchr
+  return ((int*)(&strrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strstr exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_c11b6 && [1/2] Building C object CMakeFiles/cmTC_c11b6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c11b6
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strstr
+  return ((int*)(&strstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_a6f0e && [1/2] Building C object CMakeFiles/cmTC_a6f0e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a6f0e
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtol exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_49014 && [1/2] Building C object CMakeFiles/cmTC_49014.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_49014
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtol
+  return ((int*)(&strtol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoul exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_19ff7 && [1/2] Building C object CMakeFiles/cmTC_19ff7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_19ff7
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoul
+  return ((int*)(&strtoul))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_93be7 && [1/2] Building C object CMakeFiles/cmTC_93be7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_93be7
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_f4a12 && [1/2] Building C object CMakeFiles/cmTC_f4a12.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f4a12
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atoi exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_f7294 && [1/2] Building C object CMakeFiles/cmTC_f7294.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f7294
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atoi
+  return ((int*)(&atoi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atof exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_270de && [1/2] Building C object CMakeFiles/cmTC_270de.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_270de
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atof
+  return ((int*)(&atof))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_143ef && [1/2] Building C object CMakeFiles/cmTC_143ef.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_143ef
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmp
+  return ((int*)(&strcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_3a7fe && [1/2] Building C object CMakeFiles/cmTC_3a7fe.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3a7fe
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmp
+  return ((int*)(&strncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_5da85 && [1/2] Building C object CMakeFiles/cmTC_5da85.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5da85
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_27eb0 && [1/2] Building C object CMakeFiles/cmTC_27eb0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_27eb0
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_d9a51 && [1/2] Building C object CMakeFiles/cmTC_d9a51.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d9a51
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscmp
+  return ((int*)(&wcscmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsdup exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_39ba9 && [1/2] Building C object CMakeFiles/cmTC_39ba9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_39ba9
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslen exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_f2db7 && [1/2] Building C object CMakeFiles/cmTC_f2db7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f2db7
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_115e5 && [1/2] Building C object CMakeFiles/cmTC_115e5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_115e5
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncmp
+  return ((int*)(&wcsncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsstr exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_5b78c && [1/2] Building C object CMakeFiles/cmTC_5b78c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5b78c
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsstr
+  return ((int*)(&wcsstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscasecmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_60cde && [1/2] Building C object CMakeFiles/cmTC_60cde.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_60cde
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncasecmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_d7062 && [1/2] Building C object CMakeFiles/cmTC_d7062.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d7062
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sscanf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_0c843 && [1/2] Building C object CMakeFiles/cmTC_0c843.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0c843
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sscanf
+  return ((int*)(&sscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsscanf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_fb645 && [1/2] Building C object CMakeFiles/cmTC_fb645.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fb645
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsscanf
+  return ((int*)(&vsscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b95b3 && [1/2] Building C object CMakeFiles/cmTC_b95b3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b95b3
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_62c71 && [1/2] Building C object CMakeFiles/cmTC_62c71.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_62c71
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Exit exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8a6c0 && [1/2] Building C object CMakeFiles/cmTC_8a6c0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8a6c0
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Exit
+  return ((int*)(&_Exit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_28f3b && [1/2] Building C object CMakeFiles/cmTC_28f3b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_28f3b
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setjmp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_21587 && [1/2] Building C object CMakeFiles/cmTC_21587.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_21587
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setjmp
+  return ((int*)(&setjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nanosleep exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_206fe && [1/2] Building C object CMakeFiles/cmTC_206fe.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_206fe
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_6fe5b && [1/2] Building C object CMakeFiles/cmTC_6fe5b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6fe5b
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getauxval exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_1313b && [1/2] Building C object CMakeFiles/cmTC_1313b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1313b
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_c8a87 && [1/2] Building C object CMakeFiles/cmTC_c8a87.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c8a87
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_cfe8a && [1/2] Building C object CMakeFiles/cmTC_cfe8a.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/linux/share/cmake-3.23/Modules/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_cfe8a
+
+
+
+Determining if the atan exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_79232 && [1/2] Building C object CMakeFiles/cmTC_79232.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_79232
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan
+  return ((int*)(&atan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan2 exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_96399 && [1/2] Building C object CMakeFiles/cmTC_96399.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_96399
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2
+  return ((int*)(&atan2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atanf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b457e && [1/2] Building C object CMakeFiles/cmTC_b457e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b457e
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atanf
+  return ((int*)(&atanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan2f exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8bd5d && [1/2] Building C object CMakeFiles/cmTC_8bd5d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8bd5d
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2f
+  return ((int*)(&atan2f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceil exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_5ef61 && [1/2] Building C object CMakeFiles/cmTC_5ef61.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5ef61
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceil
+  return ((int*)(&ceil))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceilf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_15276 && [1/2] Building C object CMakeFiles/cmTC_15276.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_15276
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the copysign exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_51b66 && [1/2] Building C object CMakeFiles/cmTC_51b66.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_51b66
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysign
+  return ((int*)(&copysign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the copysignf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_3dd8e && [1/2] Building C object CMakeFiles/cmTC_3dd8e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3dd8e
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysignf
+  return ((int*)(&copysignf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the cos exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_86c7a && [1/2] Building C object CMakeFiles/cmTC_86c7a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_86c7a
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cos
+  return ((int*)(&cos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the cosf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_5a439 && [1/2] Building C object CMakeFiles/cmTC_5a439.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5a439
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cosf
+  return ((int*)(&cosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_003aa && [1/2] Building C object CMakeFiles/cmTC_003aa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_003aa
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the expf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b7a47 && [1/2] Building C object CMakeFiles/cmTC_b7a47.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b7a47
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef expf
+  return ((int*)(&expf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fabs exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b7761 && [1/2] Building C object CMakeFiles/cmTC_b7761.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b7761
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabs
+  return ((int*)(&fabs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fabsf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_5c727 && [1/2] Building C object CMakeFiles/cmTC_5c727.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5c727
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabsf
+  return ((int*)(&fabsf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floor exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_49127 && [1/2] Building C object CMakeFiles/cmTC_49127.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_49127
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floor
+  return ((int*)(&floor))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floorf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8f62b && [1/2] Building C object CMakeFiles/cmTC_8f62b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8f62b
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmod exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_65960 && [1/2] Building C object CMakeFiles/cmTC_65960.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_65960
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmod
+  return ((int*)(&fmod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmodf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_4b85e && [1/2] Building C object CMakeFiles/cmTC_4b85e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4b85e
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_fbbbf && [1/2] Building C object CMakeFiles/cmTC_fbbbf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fbbbf
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the logf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_802ef && [1/2] Building C object CMakeFiles/cmTC_802ef.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_802ef
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef logf
+  return ((int*)(&logf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10 exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_fae28 && [1/2] Building C object CMakeFiles/cmTC_fae28.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fae28
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10f exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_cd4e3 && [1/2] Building C object CMakeFiles/cmTC_cd4e3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cd4e3
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10f
+  return ((int*)(&log10f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lround exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_07759 && [1/2] Building C object CMakeFiles/cmTC_07759.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_07759
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lround
+  return ((int*)(&lround))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lroundf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_3f298 && [1/2] Building C object CMakeFiles/cmTC_3f298.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3f298
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lroundf
+  return ((int*)(&lroundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pow exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_d2e16 && [1/2] Building C object CMakeFiles/cmTC_d2e16.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d2e16
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the powf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_544de && [1/2] Building C object CMakeFiles/cmTC_544de.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_544de
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef powf
+  return ((int*)(&powf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the round exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_2d60f && [1/2] Building C object CMakeFiles/cmTC_2d60f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2d60f
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the roundf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_4fedc && [1/2] Building C object CMakeFiles/cmTC_4fedc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4fedc
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef roundf
+  return ((int*)(&roundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scalbn exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_aeaae && [1/2] Building C object CMakeFiles/cmTC_aeaae.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_aeaae
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbn
+  return ((int*)(&scalbn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scalbnf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b46ea && [1/2] Building C object CMakeFiles/cmTC_b46ea.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b46ea
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbnf
+  return ((int*)(&scalbnf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sin exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_1d94a && [1/2] Building C object CMakeFiles/cmTC_1d94a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1d94a
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sin
+  return ((int*)(&sin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sinf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_0e8f1 && [1/2] Building C object CMakeFiles/cmTC_0e8f1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0e8f1
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sinf
+  return ((int*)(&sinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrt exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_75d75 && [1/2] Building C object CMakeFiles/cmTC_75d75.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_75d75
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrt
+  return ((int*)(&sqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_a767b && [1/2] Building C object CMakeFiles/cmTC_a767b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a767b
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tan exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b1198 && [1/2] Building C object CMakeFiles/cmTC_b1198.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b1198
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tan
+  return ((int*)(&tan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tanf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_d50d2 && [1/2] Building C object CMakeFiles/cmTC_d50d2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d50d2
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tanf
+  return ((int*)(&tanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acos exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_19d94 && [1/2] Building C object CMakeFiles/cmTC_19d94.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_19d94
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acos
+  return ((int*)(&acos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acosf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_fa9f8 && [1/2] Building C object CMakeFiles/cmTC_fa9f8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fa9f8
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acosf
+  return ((int*)(&acosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the asin exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_5ca04 && [1/2] Building C object CMakeFiles/cmTC_5ca04.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5ca04
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asin
+  return ((int*)(&asin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the asinf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_1fc38 && [1/2] Building C object CMakeFiles/cmTC_1fc38.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1fc38
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asinf
+  return ((int*)(&asinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the trunc exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_4803e && [1/2] Building C object CMakeFiles/cmTC_4803e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4803e
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef trunc
+  return ((int*)(&trunc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the truncf exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b52fa && [1/2] Building C object CMakeFiles/cmTC_b52fa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b52fa
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef truncf
+  return ((int*)(&truncf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the c passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_0f618 && [1/2] Building C object CMakeFiles/cmTC_0f618.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0f618
+
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_c39a4 && [1/2] Building C object CMakeFiles/cmTC_c39a4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c39a4
+
+
+
+Determining if the alloca exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_e83ba && [1/2] Building C object CMakeFiles/cmTC_e83ba.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e83ba
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the alloca exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_92851 && [1/2] Building C object CMakeFiles/cmTC_92851.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_92851
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_44d2c && [1/2] Building C object CMakeFiles/cmTC_44d2c.dir/src.c.o
+[2/2] Linking C executable cmTC_44d2c
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_73c72 && [1/2] Building C object CMakeFiles/cmTC_73c72.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_73c72
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_O_CLOEXEC succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_40014 && [1/2] Building C object CMakeFiles/cmTC_40014.dir/src.c.o
+[2/2] Linking C executable cmTC_40014
+
+
+Source file was:
+
+    #include <fcntl.h>
+    int flag = O_CLOEXEC;
+    int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OSS_SYS_SOUNDCARD_H succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_dcabc && [1/2] Building C object CMakeFiles/cmTC_dcabc.dir/src.c.o
+[2/2] Linking C executable cmTC_dcabc
+
+
+Source file was:
+
+        #include <sys/soundcard.h>
+        int main(int argc, char **argv) { int arg = SNDCTL_DSP_SETFRAGMENT; return 0; }
+Determining if the include file alsa/asoundlib.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_a6364 && [1/2] Building C object CMakeFiles/cmTC_a6364.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a6364
+
+
+
+Determining if the function snd_pcm_recover exists in the asound passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_c61dd && [1/2] Building C object CMakeFiles/cmTC_c61dd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c61dd
+
+
+
+Determining if the shmat exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_b2d19 && [1/2] Building C object CMakeFiles/cmTC_b2d19.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b2d19
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/shm.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef shmat
+  return ((int*)(&shmat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_XGENERICEVENT succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_5cddb && [1/2] Building C object CMakeFiles/cmTC_5cddb.dir/src.c.o
+[2/2] Linking C executable cmTC_5cddb
+
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          int main(int argc, char **argv) {
+            Display *display;
+            XEvent event;
+            XGenericEventCookie *cookie = &event.xcookie;
+            XNextEvent(display, &event);
+            XGetEventData(display, cookie);
+            XFreeEventData(display, cookie);
+            return 0; }
+Determining if the XkbKeycodeToKeysym exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_eb5bb && [1/2] Building C object CMakeFiles/cmTC_eb5bb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_eb5bb
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <X11/Xlib.h>
+#include <X11/XKBlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef XkbKeycodeToKeysym
+  return ((int*)(&XkbKeycodeToKeysym))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_XINPUT2_MULTITOUCH succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_bca3f && [1/2] Building C object CMakeFiles/cmTC_bca3f.dir/src.c.o
+[2/2] Linking C executable cmTC_bca3f
+
+
+Source file was:
+
+            #include <X11/Xlib.h>
+            #include <X11/Xproto.h>
+            #include <X11/extensions/XInput2.h>
+            int event_type = XI_TouchBegin;
+            XITouchClassInfo *t;
+            Status XIAllowTouchEvents(Display *a,int b,unsigned int c,Window d,int f) {
+              return (Status)0;
+            }
+            int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_XFIXES_H succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_c92fc && [1/2] Building C object CMakeFiles/cmTC_c92fc.dir/src.c.o
+[2/2] Linking C executable cmTC_c92fc
+
+
+Source file was:
+
+            #include <X11/Xlib.h>
+            #include <X11/Xproto.h>
+            #include <X11/extensions/XInput2.h>
+            #include <X11/extensions/Xfixes.h>
+            BarrierEventID b;
+            int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGL_EGL succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_06943 && [1/2] Building C object CMakeFiles/cmTC_06943.dir/src.c.o
+[2/2] Linking C executable cmTC_06943
+
+
+Source file was:
+
+        #define EGL_API_FB
+        #define MESA_EGL_NO_X11_HEADERS
+        #define EGL_NO_X11
+        #include <EGL/egl.h>
+        #include <EGL/eglext.h>
+        int main (int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGL_GLX succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_50601 && [1/2] Building C object CMakeFiles/cmTC_50601.dir/src.c.o
+[2/2] Linking C executable cmTC_50601
+
+
+Source file was:
+
+        #include <GL/glx.h>
+        int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGL succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_e156a && [1/2] Building C object CMakeFiles/cmTC_e156a.dir/src.c.o
+[2/2] Linking C executable cmTC_e156a
+
+
+Source file was:
+
+        #include <GL/gl.h>
+        #include <GL/glext.h>
+        int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGLES_V1 succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_372be && [1/2] Building C object CMakeFiles/cmTC_372be.dir/src.c.o
+[2/2] Linking C executable cmTC_372be
+
+
+Source file was:
+
+        #include <GLES/gl.h>
+        #include <GLES/glext.h>
+        int main (int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGLES_V2 succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_45fc1 && [1/2] Building C object CMakeFiles/cmTC_45fc1.dir/src.c.o
+[2/2] Linking C executable cmTC_45fc1
+
+
+Source file was:
+
+        #include <GLES2/gl2.h>
+        #include <GLES2/gl2ext.h>
+        int main (int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_INPUT_EVENTS succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_ef262 && [1/2] Building C object CMakeFiles/cmTC_ef262.dir/src.c.o
+[2/2] Linking C executable cmTC_ef262
+
+
+Source file was:
+
+            #include <linux/input.h>
+            #ifndef EVIOCGNAME
+            #error EVIOCGNAME() ioctl not available
+            #endif
+            int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_INPUT_KD succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_a2cbb && [1/2] Building C object CMakeFiles/cmTC_a2cbb.dir/src.c.o
+[2/2] Linking C executable cmTC_a2cbb
+
+
+Source file was:
+
+          #include <linux/kd.h>
+          #include <linux/keyboard.h>
+          #include <sys/ioctl.h>
+          int main(int argc, char **argv) {
+              struct kbentry kbe;
+              kbe.kb_table = KG_CTRL;
+              ioctl(0, KDGKBENT, &kbe);
+              return 0;
+          }
+Determining if the include file libudev.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_608a5 && [1/2] Building C object CMakeFiles/cmTC_608a5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_608a5
+
+
+
+Determining if the include file sys/inotify.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_90999 && [1/2] Building C object CMakeFiles/cmTC_90999.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_90999
+
+
+
+Determining if the inotify_init exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_479cc && [1/2] Building C object CMakeFiles/cmTC_479cc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_479cc
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_init
+  return ((int*)(&inotify_init))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_init1 exist passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_03e4d && [1/2] Building C object CMakeFiles/cmTC_03e4d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_03e4d
+
+
+File /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_init1
+  return ((int*)(&inotify_init1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_4c855 && [1/2] Building C object CMakeFiles/cmTC_4c855.dir/src.c.o
+[2/2] Linking C executable cmTC_4c855
+
+
+Source file was:
+
+      #include <pthread.h>
+      int main(int argc, char** argv) {
+        pthread_attr_t type;
+        pthread_attr_init(&type);
+        return 0;
+      }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_71547 && [1/2] Building C object CMakeFiles/cmTC_71547.dir/src.c.o
+[2/2] Linking C executable cmTC_71547
+
+
+Source file was:
+
+        #define _GNU_SOURCE 1
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_84cbb && [1/2] Building C object CMakeFiles/cmTC_84cbb.dir/src.c.o
+[2/2] Linking C executable cmTC_84cbb
+
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_44007 && [1/2] Building C object CMakeFiles/cmTC_44007.dir/src.c.o
+/home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:19: warning: null argument where non-null required (argument 1) [-Wnonnull]
+    5 |                   sem_timedwait(NULL, NULL);
+      |                   ^~~~~~~~~~~~~
+/home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:5:19: warning: null argument where non-null required (argument 2) [-Wnonnull]
+[2/2] Linking C executable cmTC_44007
+
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_a77f1 && [1/2] Building C object CMakeFiles/cmTC_a77f1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a77f1
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_SETNAME_NP succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_a3258 && [1/2] Building C object CMakeFiles/cmTC_a3258.dir/src.c.o
+[2/2] Linking C executable cmTC_a3258
+
+
+Source file was:
+
+            #define _GNU_SOURCE 1
+            #include <pthread.h>
+            int main(int argc, char **argv) {
+              pthread_setname_np(pthread_self(), "");
+              return 0;
+            }
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_c9910 && [1/2] Building C object CMakeFiles/cmTC_c9910.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c9910
+
+
+
+Determining if the include file linux/version.h exists passed with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_e74d3 && [1/2] Building C object CMakeFiles/cmTC_e74d3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e74d3
+
+
+
+Performing C SOURCE FILE Test HAVE_ENABLE_NEW_DTAGS succeeded with the following output:
+Change Dir: /home/f33dir/projects/C++/GraphLab1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/f33dir/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/linux/ninja cmTC_8a6b1 && [1/2] Building C object CMakeFiles/cmTC_8a6b1.dir/src.c.o
+[2/2] Linking C executable cmTC_8a6b1
+
+
+Source file was:
+int main(void) { return 0; }
