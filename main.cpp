@@ -1,8 +1,9 @@
 #include <iostream>
 #include <vector>
 #include "ImGui/imgui.h"
-#include "SDL/include/SDL.h"
-//#include "ImGui/backends/imgui_impl_sdlrenderer.h"
+#include "SDL.h"
+#include "ImGui/backends/imgui_impl_sdlrenderer.h"
+#include "ImGui/backends/imgui_impl_sdl.h"
 
 void HandleInputs();
 
@@ -31,8 +32,8 @@ int main() {
     std::vector<Uint32> bufferForUpdate(textureWidth * textureHeight);
     SDL_UpdateTexture(texture, nullptr, bufferForUpdate.data(), textureWidth * sizeof(bufferForUpdate[0]));
 
-//    ImGui_ImplSDL2_InitForSDLRenderer(window, renderer);
-//    ImGui_ImplSDLRenderer_Init(renderer);
+    ImGui_ImplSDL2_InitForSDLRenderer(window, renderer);
+    ImGui_ImplSDLRenderer_Init(renderer);
     for (auto& pixel: bufferForUpdate)
         pixel = 0xff000000; // RGBA = {255, 0, 0, 0}
     int fps = 60;

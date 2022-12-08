@@ -6,8 +6,12 @@ file(GLOB ImGui
         "ImGui/backends/imgui_impl_sdlrenderer.*"
         "ImGui/backends/imgui_impl_sdl.*"
         )
+file(GLOB engine
+        "Engine/*.*")
 set(CMAKE_CXX_STANDARD 23)
-add_executable(Lab main.cpp ${ImGui} SDL/include/SDL3/SDL.h )
-target_link_libraries(${PROJECT_NAME})
+find_package(SDL2 REQUIRED)
+include_directories(${PROJECT_NAME} ${SDL2_INCLUDE_DIRS})
+add_executable(Lab main.cpp ${ImGui}  ${engine} )
+target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
 
         

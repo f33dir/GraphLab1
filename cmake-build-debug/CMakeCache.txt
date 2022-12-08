@@ -308,6 +308,9 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 //Path to a library.
 PULSE_SIMPLE_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libpulse-simple.so
 
+//The directory containing a CMake configuration file for SDL2.
+SDL2_DIR:PATH=/usr/local/lib/cmake/SDL2
+
 //Dependencies for the target
 SDL3-static_LIB_DEPENDS:STATIC=general;m;general;dl;general;rt;general;-pthread;
 
