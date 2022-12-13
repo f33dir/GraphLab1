@@ -6,10 +6,11 @@
 5	10	1670416153593069770	SDL/wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h	5da4b1d3106ba6c3
 4	9	1670416153589069753	SDL/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h	1aa7d6bb67db0007
 9	14	1670416153593069770	SDL/wayland-generated-protocols/tablet-unstable-v2-client-protocol.h	f3203a8dab43436
-0	172	1670450480048428748	build.ninja	accf6b5e669442f1
-604	685	1670426759559194842	Lab	56d5742f8bc66f4e
+0	172	1670888981494077887	build.ninja	accf6b5e669442f1
+1	764	1670888931061755681	CMakeFiles/Lab.dir/Engine/Application.cpp.o	6f9925a776f173fb
+17	98	1670450481708437190	Lab	d657a62f117108c7
 5	8	1670416153589069753	/home/f33dir/projects/C++/GraphLab1/cmake-build-debug/SDL/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h	5d07ac63d6c4dd68
-0	603	1670426759479194345	CMakeFiles/Lab.dir/main.cpp.o	f02394dfe8be2665
+1	723	1670888931017755398	CMakeFiles/Lab.dir/main.cpp.o	f02394dfe8be2665
 10	169	1670416153749070404	SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o	c66065a6c6d60685
 1	1500	1670426679794686676	CMakeFiles/Lab.dir/ImGui/imgui.cpp.o	49799eb3e02cd1f4
 11	59	1670416153641069965	SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o	551aead1f8410fd7
@@ -22,5 +23,7 @@
 8	11	1670416153593069770	/home/f33dir/projects/C++/GraphLab1/cmake-build-debug/SDL/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h	74698db23309c71b
 2	1086	1670426679382683984	CMakeFiles/Lab.dir/ImGui/imgui_draw.cpp.o	75ccd1ec0736ef13
 5	10	1670416153593069770	/home/f33dir/projects/C++/GraphLab1/cmake-build-debug/SDL/wayland-generated-protocols/primary-selection-unstable-v1-client-protocol.h	5da4b1d3106ba6c3
-1	17	1670450481628436784	CMakeFiles/Lab.dir/Engine/Application.cpp.o	6f9925a776f173fb
-17	98	1670450481708437190	Lab	d657a62f117108c7
+1	207	1670888986126107388	CMakeFiles/Lab.dir/Engine/ApplicationConfig.cpp.o	78c11c6940ae62a2
+1	604	1670888986522109909	CMakeFiles/Lab.dir/Engine/Sprite/Sprite.cpp.o	6b34680465b6e9a
+1	628	1670888986546110061	CMakeFiles/Lab.dir/Engine/Object/Object.cpp.o	ccd8b9b40db730d5
+629	712	1670888986630110595	Lab	9389cc083e0802d3

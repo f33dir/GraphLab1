@@ -3,3 +3,9 @@
 //
 
 #include "ApplicationConfig.h"
+
+ApplicationConfig::ApplicationConfig() {
+    wight =800;
+    height =600;
+    name= "application";
+}

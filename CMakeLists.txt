@@ -7,7 +7,8 @@ file(GLOB ImGui
         "ImGui/backends/imgui_impl_sdl.*"
         )
 file(GLOB engine
-        "Engine/*.*")
+        "Engine/*.*"
+        "Engine/*/*.*")
 set(CMAKE_CXX_STANDARD 23)
 find_package(SDL2 REQUIRED)
 include_directories(${PROJECT_NAME} ${SDL2_INCLUDE_DIRS})

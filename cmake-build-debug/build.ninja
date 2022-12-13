@@ -112,6 +112,27 @@ build CMakeFiles/Lab.dir/Engine/Application.cpp.o: CXX_COMPILER__Lab_Debug /home
   OBJECT_DIR = CMakeFiles/Lab.dir
   OBJECT_FILE_DIR = CMakeFiles/Lab.dir/Engine
 
+build CMakeFiles/Lab.dir/Engine/ApplicationConfig.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/Engine/ApplicationConfig.cpp || cmake_object_order_depends_target_Lab
+  DEP_FILE = CMakeFiles/Lab.dir/Engine/ApplicationConfig.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/home/f33dir/projects/C++/GraphLab1/Lab -isystem /usr/local/include/SDL2
+  OBJECT_DIR = CMakeFiles/Lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab.dir/Engine
+
+build CMakeFiles/Lab.dir/Engine/Object/Object.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/Engine/Object/Object.cpp || cmake_object_order_depends_target_Lab
+  DEP_FILE = CMakeFiles/Lab.dir/Engine/Object/Object.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/home/f33dir/projects/C++/GraphLab1/Lab -isystem /usr/local/include/SDL2
+  OBJECT_DIR = CMakeFiles/Lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab.dir/Engine/Object
+
+build CMakeFiles/Lab.dir/Engine/Sprite/Sprite.cpp.o: CXX_COMPILER__Lab_Debug /home/f33dir/projects/C++/GraphLab1/Engine/Sprite/Sprite.cpp || cmake_object_order_depends_target_Lab
+  DEP_FILE = CMakeFiles/Lab.dir/Engine/Sprite/Sprite.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I/home/f33dir/projects/C++/GraphLab1/Lab -isystem /usr/local/include/SDL2
+  OBJECT_DIR = CMakeFiles/Lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lab.dir/Engine/Sprite
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Lab
@@ -120,7 +141,7 @@ build CMakeFiles/Lab.dir/Engine/Application.cpp.o: CXX_COMPILER__Lab_Debug /home
 #############################################
 # Link the executable Lab
 
-build Lab: CXX_EXECUTABLE_LINKER__Lab_Debug CMakeFiles/Lab.dir/main.cpp.o CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdl.cpp.o CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdlrenderer.cpp.o CMakeFiles/Lab.dir/ImGui/imgui.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_demo.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_draw.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_tables.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_widgets.cpp.o CMakeFiles/Lab.dir/Engine/Application.cpp.o | /usr/local/lib/libSDL2.so
+build Lab: CXX_EXECUTABLE_LINKER__Lab_Debug CMakeFiles/Lab.dir/main.cpp.o CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdl.cpp.o CMakeFiles/Lab.dir/ImGui/backends/imgui_impl_sdlrenderer.cpp.o CMakeFiles/Lab.dir/ImGui/imgui.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_demo.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_draw.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_tables.cpp.o CMakeFiles/Lab.dir/ImGui/imgui_widgets.cpp.o CMakeFiles/Lab.dir/Engine/Application.cpp.o CMakeFiles/Lab.dir/Engine/ApplicationConfig.cpp.o CMakeFiles/Lab.dir/Engine/Object/Object.cpp.o CMakeFiles/Lab.dir/Engine/Sprite/Sprite.cpp.o | /usr/local/lib/libSDL2.so
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libSDL2.so
   LINK_PATH = -L/usr/local/lib

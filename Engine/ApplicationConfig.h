@@ -4,10 +4,14 @@
 
 #ifndef LAB_APPLICATIONCONFIG_H
 #define LAB_APPLICATIONCONFIG_H
-
-
+#include <string>
+using namespace std;
 class ApplicationConfig {
-    public
+public:
+    ApplicationConfig();
+    int height;
+    int wight;
+    const char *name;
 };
 
 
