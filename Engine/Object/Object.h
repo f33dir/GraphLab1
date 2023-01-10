@@ -10,7 +10,7 @@ class Object {
 public:
     int x;
     int y;
-    virtual int Process(Application context);
+    int Process(Application context);
 };
 
 

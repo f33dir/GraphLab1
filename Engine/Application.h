@@ -19,6 +19,7 @@ private:
     SDL_Renderer* renderer;
     void HandleInputs();
     void UpdateImage();
+    SDL_Texture* texture;
 public:
     ApplicationConfig config;
     int xOffset;
@@ -28,7 +29,10 @@ public:
     SDL_Event mouseDown;
     SDL_Event mouseUp;
     Application(ApplicationConfig config  = ApplicationConfig());
+    ~Application();
     int Run();
+
+    void HandleImGui();
 };
 
 
